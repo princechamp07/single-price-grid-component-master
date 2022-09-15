@@ -1,0 +1,137 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+        width:100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:  hsl(204, 43%, 93%);
+    }
+
+    footer{
+        margin-top: 45%;
+        background-color: black;
+        padding: 0px 20px;
+        color: #fff;
+        margin-left: -35%;
+    }
+    main{
+        width: 40%;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .head{
+        color:hsl(179, 62%, 43%);
+        padding: 35px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .subhead{
+        color: hsl(71, 73%, 54%);
+        font-size: 20px;
+        padding: 0 35px 20px 35px;
+
+    }
+
+    p{
+        padding-left: 30px;
+        padding-right: 50px;
+        color:hsl(218, 22%, 67%) ;
+    }
+    
+    .main{
+        margin-top: 10%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .subs{
+        background-color: hsl(179, 62%, 43%);
+    }
+
+    .ms{
+        font-size: 20px;
+        font-weight: bold;
+        padding: 35px;
+        color:#fff;
+    }
+
+    .price{
+        padding-left:35px ;
+        font-size: 30px;
+        font-weight: bold;
+        color: #fff;
+        margin-top:-20px ;
+    }
+
+    .month{
+        color: rgba(255, 255, 255, 0.432);
+        margin-left: 30%;
+        margin-top: -7%;
+        padding-bottom: 20%;
+        
+    }
+
+    .time{
+        padding-left: 35px;
+        margin-top: -15%;
+        color: #fff;
+        padding-bottom: 10%;
+    }
+
+    .signup a{
+        text-decoration: none;
+        padding: 10px 70px;
+        background-color: hsl(71, 73%, 54%);
+        margin: 0px 35px;
+        border-radius:5px ;
+        font-size: 18px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .signup{
+        padding-bottom: 20%;
+    }
+
+    .details{
+        background-color:  hsla(179, 62%, 43%, 0.836);
+    }
+
+    .head2{
+        font-size: 20px;
+        font-weight: bold;
+        padding: 35px;
+        color:#fff;
+    }
+
+    .details1{
+        font-size: 15px;
+        padding-left: 35px;
+        color: #fff ;
+        padding-bottom: 35px;
+    }
+
+    @media only screen and (max-width: 800px) {
+        .main{
+            display: flex;
+            flex-direction: column;
+        }
+
+        footer{
+            opacity: 0;
+        }
+
+        .month{
+            color: rgba(255, 255, 255, 0.432);
+            margin-left: 35%;
+            margin-top: -10%;
+            padding-bottom: 30%;
+            
+        }
+      }
